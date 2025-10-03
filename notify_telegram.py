@@ -2,6 +2,7 @@ import os
 import requests
 from datetime import datetime, timezone, timedelta
 import argparse
+import time  # tambahan
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")  # single chat or channel id (@channelusername)
@@ -23,14 +24,26 @@ def _post(text: str) -> bool:
     except Exception:
         return False
 
+# === tambahan: helper format durasi
+def format_duration(seconds: int) -> str:
+    m, s = divmod(int(seconds), 60)
+    return f"{m}m {s}s" if m else f"{s}s"
+
 def notify_simple_report(status: str = "SUCCESS") -> bool:
-    """Kirim pesan ringkas hasil PageSpeed Nutriclub ke Telegram."""
+    """Kirim pesan ringkas hasil PageSpeed Nutriclub ke Telegram + durasi run."""
     wib = timezone(timedelta(hours=7))
     ts = datetime.now(wib).strftime("%d/%m/%Y %H:%M:%S WIB")
+
+    # === tambahan: ambil start & end dari env
+    start = float(os.getenv("START_TS", time.time()))
+    end = float(os.getenv("END_TS", time.time()))
+    duration = format_duration(end - start)
+
     lines = [
         "<b>Hasil Pengecekan PageSpeed Nutriclub</b>",
         f"Tanggal & Waktu: {ts}",
         f"Status: <b>{status}</b>",
+        f"Durasi Run: {duration}",  # tambahan
         "Dashboard utama:",
         "<a href=\"https://maazway.github.io/pagespeed_monitor_nr/\">https://maazway.github.io/pagespeed_monitor_nr/</a>",
         "",

@@ -3,7 +3,7 @@ name: Build & Deploy PSI Dashboard
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "0 0 * * *" # 06:00 WIB
+    - cron: "0 1 * * *" # 08:00 WIB
 
 permissions:
   contents: write
@@ -46,6 +46,10 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
+      # === Tambahan: catat waktu mulai ===
+      - name: Set start time
+        run: echo "START_TS=$(date +%s)" >> $GITHUB_ENV
+
       - name: Run PSI Dashboard Script
         env:
           PSI_API_KEY: ${{ secrets.PSI_API_KEY }}
@@ -59,6 +63,10 @@ jobs:
             --out-json dashboard/psi_results.json \
             --out-html dashboard/index.html \
             --sleep 1.0
+
+      # === Tambahan: catat waktu selesai ===
+      - name: Set end time
+        run: echo "END_TS=$(date +%s)" >> $GITHUB_ENV
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
