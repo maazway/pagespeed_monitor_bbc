@@ -30,7 +30,7 @@ def format_duration(seconds: int) -> str:
     return f"{m}m {s}s" if m else f"{s}s"
 
 def notify_simple_report(status: str = "SUCCESS") -> bool:
-    """Kirim pesan ringkas hasil PageSpeed Nutriclub ke Telegram + durasi run."""
+    """Kirim pesan ringkas hasil PageSpeed Bebeclub ke Telegram + durasi run."""
     wib = timezone(timedelta(hours=7))
     ts = datetime.now(wib).strftime("%d/%m/%Y %H:%M:%S WIB")
 
@@ -40,15 +40,15 @@ def notify_simple_report(status: str = "SUCCESS") -> bool:
     duration = format_duration(end - start)
 
     lines = [
-        "<b>Hasil Pengecekan PageSpeed Nutriclub</b>",
+        "<b>Hasil Pengecekan PageSpeed Bebeclub</b>",
         f"Tanggal & Waktu: {ts}",
         f"Status: <b>{status}</b>",
         f"Durasi Run: {duration}",  # tambahan
         "Dashboard utama:",
-        "<a href=\"https://maazway.github.io/pagespeed_monitor_nr/\">https://maazway.github.io/pagespeed_monitor_nr/</a>",
+        "<a href=\"https://maazway.github.io/pagespeed_monitor_bbc/\">https://maazway.github.io/pagespeed_monitor_bbc/</a>",
         "",
         "History (json file):",
-        "<a href=\"https://maazway.github.io/pagespeed_monitor_nr/history.json\">https://maazway.github.io/pagespeed_monitor_nr/history.json</a>",
+        "<a href=\"https://maazway.github.io/pagespeed_monitor_bbc/history.json\">https://maazway.github.io/pagespeed_monitor_bbc/history.json</a>",
     ]
     return _post("\n".join(lines))
 

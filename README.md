@@ -17,6 +17,6 @@ python psi_csv_dashboard.py --csv urls.csv
 ```
 
 ## CI (GitHub Actions)
-- Jalan setiap hari **06:00 WIB**.
+- Jalan setiap hari **07:00 WIB**.
 - Menghasilkan `dashboard/dashboard.html` dan memperbarui `dashboard/history.json` + `dashboard/history/YYYY-MM.json`.
 - Commit ke `main` dan deploy ke GitHub Pages.
