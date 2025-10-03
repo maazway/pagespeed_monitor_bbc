@@ -1,1 +1,21 @@
-
+{
+  "generated_at": "UTC",
+  "data": [
+    {
+      "url": "https://www.bebeclub.co.id/",
+      "strategy": "mobile",
+      "performance": 65,
+      "accessibility": 82,
+      "best_practices": 86,
+      "seo": 100
+    },
+    {
+      "url": "https://www.bebeclub.co.id/",
+      "strategy": "desktop",
+      "performance": 52,
+      "accessibility": 85,
+      "best_practices": 67,
+      "seo": 100
+    }
+  ]
+}
