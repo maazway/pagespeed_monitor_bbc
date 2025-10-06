@@ -41,14 +41,16 @@ def notify_simple_report(status: str = "SUCCESS") -> bool:
 
     lines = [
         "<b>Hasil Pengecekan PageSpeed Bebeclub</b>",
-        f"Tanggal & Waktu: {ts}",
+        "",
+        f"Tanggal & Waktu: <b>{ts}</b>",
         f"Status: <b>{status}</b>",
-        f"Durasi Run: {duration}",  # tambahan
+        f"Durasi Run: <b>{duration}</b>",  # tambahan
+        "",
         "Dashboard utama:",
-        "<a href=\"https://maazway.github.io/pagespeed_monitor_bbc/\">https://maazway.github.io/pagespeed_monitor_bbc/</a>",
+        "<a href=\"https://maazway.github.io/pagespeed-monitor-bbc\">https://maazway.github.io/pagespeed-monitor-bbc</a>",
         "",
         "History (json file):",
-        "<a href=\"https://maazway.github.io/pagespeed_monitor_bbc/history.json\">https://maazway.github.io/pagespeed_monitor_bbc/history.json</a>",
+        "<a href=\"https://maazway.github.io/pagespeed-monitor-bbc/history.json\">https://maazway.github.io/pagespeed-monitor-bbc/history.json</a>",
     ]
     return _post("\n".join(lines))
 
