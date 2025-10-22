@@ -4,7 +4,7 @@
     {
       "url": "https://www.bebeclub.co.id/membership/registration",
       "strategy": "desktop",
-      "performance": 27,
+      "performance": 26,
       "accessibility": 86,
       "best_practices": 73,
       "seo": 100
@@ -12,7 +12,7 @@
     {
       "url": "https://www.bebeclub.co.id/membership/registration",
       "strategy": "mobile",
-      "performance": 41,
+      "performance": 57,
       "accessibility": 87,
       "best_practices": 92,
       "seo": 100
@@ -20,7 +20,7 @@
     {
       "url": "https://www.bebeclub.co.id/membership",
       "strategy": "desktop",
-      "performance": 37,
+      "performance": 49,
       "accessibility": 88,
       "best_practices": 38,
       "seo": 100
@@ -28,7 +28,7 @@
     {
       "url": "https://www.bebeclub.co.id/membership",
       "strategy": "mobile",
-      "performance": 52,
+      "performance": 47,
       "accessibility": 84,
       "best_practices": 58,
       "seo": 100
@@ -36,16 +36,15 @@
     {
       "url": "https://www.bebeclub.co.id/membership/login",
       "strategy": "desktop",
-      "performance": 0,
-      "accessibility": 0,
-      "best_practices": 0,
-      "seo": 0,
-      "error": "500 Server Error: Internal Server Error for url: https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fwww.bebeclub.co.id%2Fmembership%2Flogin&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&locale=en&key=AIzaSyD4jgQLbVjvz12YitAdLbzGFPDKO9L0oB4"
+      "performance": 56,
+      "accessibility": 93,
+      "best_practices": 77,
+      "seo": 100
     },
     {
       "url": "https://www.bebeclub.co.id/membership/login",
       "strategy": "mobile",
-      "performance": 83,
+      "performance": 64,
       "accessibility": 94,
       "best_practices": 96,
       "seo": 100
@@ -53,7 +52,7 @@
     {
       "url": "https://www.bebeclub.co.id/membership/login-otp",
       "strategy": "desktop",
-      "performance": 66,
+      "performance": 47,
       "accessibility": 91,
       "best_practices": 77,
       "seo": 92
@@ -61,7 +60,7 @@
     {
       "url": "https://www.bebeclub.co.id/membership/login-otp",
       "strategy": "mobile",
-      "performance": 66,
+      "performance": 55,
       "accessibility": 92,
       "best_practices": 96,
       "seo": 92
@@ -69,7 +68,7 @@
     {
       "url": "https://www.bebeclub.co.id/membership/forgot-password",
       "strategy": "desktop",
-      "performance": 58,
+      "performance": 52,
       "accessibility": 91,
       "best_practices": 77,
       "seo": 69
@@ -77,7 +76,7 @@
     {
       "url": "https://www.bebeclub.co.id/membership/forgot-password",
       "strategy": "mobile",
-      "performance": 73,
+      "performance": 66,
       "accessibility": 92,
       "best_practices": 96,
       "seo": 69
@@ -85,7 +84,7 @@
     {
       "url": "https://www.bebeclub.co.id/",
       "strategy": "desktop",
-      "performance": 49,
+      "performance": 38,
       "accessibility": 84,
       "best_practices": 65,
       "seo": 100
@@ -93,31 +92,34 @@
     {
       "url": "https://www.bebeclub.co.id/",
       "strategy": "mobile",
-      "performance": 70,
-      "accessibility": 79,
-      "best_practices": 85,
-      "seo": 100
+      "performance": 0,
+      "accessibility": 0,
+      "best_practices": 0,
+      "seo": 0,
+      "error": "HTTPSConnectionPool(host='www.googleapis.com', port=443): Read timed out. (read timeout=60)"
     },
     {
       "url": "https://www.bebeclub.co.id/produk",
       "strategy": "desktop",
-      "performance": 51,
-      "accessibility": 89,
-      "best_practices": 73,
-      "seo": 100
+      "performance": 0,
+      "accessibility": 0,
+      "best_practices": 0,
+      "seo": 0,
+      "error": "400 Client Error: Bad Request for url: https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fwww.bebeclub.co.id%2Fproduk&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&locale=en&key=AIzaSyD4jgQLbVjvz12YitAdLbzGFPDKO9L0oB4"
     },
     {
       "url": "https://www.bebeclub.co.id/produk",
       "strategy": "mobile",
-      "performance": 72,
-      "accessibility": 88,
-      "best_practices": 96,
-      "seo": 100
+      "performance": 0,
+      "accessibility": 0,
+      "best_practices": 0,
+      "seo": 0,
+      "error": "400 Client Error: Bad Request for url: https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fwww.bebeclub.co.id%2Fproduk&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&locale=en&key=AIzaSyD4jgQLbVjvz12YitAdLbzGFPDKO9L0oB4"
     },
     {
       "url": "https://www.bebeclub.co.id/produk/bebelac-3",
       "strategy": "desktop",
-      "performance": 55,
+      "performance": 41,
       "accessibility": 88,
       "best_practices": 62,
       "seo": 92
@@ -125,7 +127,7 @@
     {
       "url": "https://www.bebeclub.co.id/produk/bebelac-3",
       "strategy": "mobile",
-      "performance": 72,
+      "performance": 58,
       "accessibility": 83,
       "best_practices": 81,
       "seo": 92
@@ -133,7 +135,7 @@
     {
       "url": "https://www.bebeclub.co.id/produk/bebelac-4",
       "strategy": "desktop",
-      "performance": 67,
+      "performance": 52,
       "accessibility": 88,
       "best_practices": 65,
       "seo": 92
@@ -141,24 +143,23 @@
     {
       "url": "https://www.bebeclub.co.id/produk/bebelac-4",
       "strategy": "mobile",
-      "performance": 51,
+      "performance": 62,
       "accessibility": 85,
       "best_practices": 85,
-      "seo": 85
+      "seo": 92
     },
     {
       "url": "https://www.bebeclub.co.id/produk/bebelac-gold",
       "strategy": "desktop",
-      "performance": 0,
-      "accessibility": 0,
-      "best_practices": 0,
-      "seo": 0,
-      "error": "400 Client Error: Bad Request for url: https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fwww.bebeclub.co.id%2Fproduk%2Fbebelac-gold&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&locale=en&key=AIzaSyD4jgQLbVjvz12YitAdLbzGFPDKO9L0oB4"
+      "performance": 14,
+      "accessibility": 83,
+      "best_practices": 38,
+      "seo": 85
     },
     {
       "url": "https://www.bebeclub.co.id/produk/bebelac-gold",
       "strategy": "mobile",
-      "performance": 35,
+      "performance": 23,
       "accessibility": 82,
       "best_practices": 62,
       "seo": 85
@@ -166,7 +167,7 @@
     {
       "url": "https://www.bebeclub.co.id/produk/bebelac-gold-soya",
       "strategy": "desktop",
-      "performance": 29,
+      "performance": 32,
       "accessibility": 80,
       "best_practices": 38,
       "seo": 85
@@ -182,7 +183,7 @@
     {
       "url": "https://www.bebeclub.co.id/produk/susu-formula-cair",
       "strategy": "desktop",
-      "performance": 41,
+      "performance": 53,
       "accessibility": 84,
       "best_practices": 62,
       "seo": 92
@@ -190,7 +191,7 @@
     {
       "url": "https://www.bebeclub.co.id/produk/susu-formula-cair",
       "strategy": "mobile",
-      "performance": 63,
+      "performance": 58,
       "accessibility": 79,
       "best_practices": 77,
       "seo": 92
@@ -198,7 +199,7 @@
     {
       "url": "https://www.bebeclub.co.id/membership",
       "strategy": "desktop",
-      "performance": 37,
+      "performance": 38,
       "accessibility": 88,
       "best_practices": 38,
       "seo": 100
@@ -206,16 +207,15 @@
     {
       "url": "https://www.bebeclub.co.id/membership",
       "strategy": "mobile",
-      "performance": 0,
-      "accessibility": 0,
-      "best_practices": 0,
-      "seo": 0,
-      "error": "500 Server Error: Internal Server Error for url: https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fwww.bebeclub.co.id%2Fmembership&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&locale=en&key=AIzaSyD4jgQLbVjvz12YitAdLbzGFPDKO9L0oB4"
+      "performance": 48,
+      "accessibility": 84,
+      "best_practices": 58,
+      "seo": 100
     },
     {
       "url": "https://www.bebeclub.co.id/bebefriends",
       "strategy": "desktop",
-      "performance": 59,
+      "performance": 66,
       "accessibility": 93,
       "best_practices": 77,
       "seo": 92
@@ -223,7 +223,7 @@
     {
       "url": "https://www.bebeclub.co.id/bebefriends",
       "strategy": "mobile",
-      "performance": 69,
+      "performance": 70,
       "accessibility": 94,
       "best_practices": 96,
       "seo": 92
@@ -231,7 +231,7 @@
     {
       "url": "https://www.bebeclub.co.id/membership/upload-struk",
       "strategy": "desktop",
-      "performance": 38,
+      "performance": 36,
       "accessibility": 93,
       "best_practices": 77,
       "seo": 92
@@ -239,7 +239,7 @@
     {
       "url": "https://www.bebeclub.co.id/membership/upload-struk",
       "strategy": "mobile",
-      "performance": 71,
+      "performance": 69,
       "accessibility": 96,
       "best_practices": 92,
       "seo": 92
@@ -247,7 +247,7 @@
     {
       "url": "https://www.bebeclub.co.id/tools",
       "strategy": "desktop",
-      "performance": 50,
+      "performance": 43,
       "accessibility": 93,
       "best_practices": 77,
       "seo": 100
@@ -255,16 +255,15 @@
     {
       "url": "https://www.bebeclub.co.id/tools",
       "strategy": "mobile",
-      "performance": 0,
-      "accessibility": 0,
-      "best_practices": 0,
-      "seo": 0,
-      "error": "HTTPSConnectionPool(host='www.googleapis.com', port=443): Read timed out. (read timeout=60)"
+      "performance": 70,
+      "accessibility": 88,
+      "best_practices": 96,
+      "seo": 100
     },
     {
       "url": "https://www.bebeclub.co.id/tools/poop-tracker",
       "strategy": "desktop",
-      "performance": 34,
+      "performance": 61,
       "accessibility": 83,
       "best_practices": 73,
       "seo": 85
@@ -272,7 +271,7 @@
     {
       "url": "https://www.bebeclub.co.id/tools/poop-tracker",
       "strategy": "mobile",
-      "performance": 69,
+      "performance": 63,
       "accessibility": 83,
       "best_practices": 88,
       "seo": 85
@@ -280,7 +279,7 @@
     {
       "url": "https://www.bebeclub.co.id/tools/bebe-journey",
       "strategy": "desktop",
-      "performance": 63,
+      "performance": 56,
       "accessibility": 86,
       "best_practices": 77,
       "seo": 85
@@ -288,23 +287,24 @@
     {
       "url": "https://www.bebeclub.co.id/tools/bebe-journey",
       "strategy": "mobile",
-      "performance": 73,
+      "performance": 59,
       "accessibility": 86,
       "best_practices": 92,
-      "seo": 85
+      "seo": 77
     },
     {
       "url": "https://www.bebeclub.co.id/tools/bebestory",
       "strategy": "desktop",
-      "performance": 36,
-      "accessibility": 87,
-      "best_practices": 54,
-      "seo": 92
+      "performance": 0,
+      "accessibility": 0,
+      "best_practices": 0,
+      "seo": 0,
+      "error": "400 Client Error: Bad Request for url: https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fwww.bebeclub.co.id%2Ftools%2Fbebestory&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&locale=en&key=AIzaSyD4jgQLbVjvz12YitAdLbzGFPDKO9L0oB4"
     },
     {
       "url": "https://www.bebeclub.co.id/tools/bebestory",
       "strategy": "mobile",
-      "performance": 60,
+      "performance": 44,
       "accessibility": 86,
       "best_practices": 73,
       "seo": 92
@@ -312,7 +312,7 @@
     {
       "url": "https://www.bebeclub.co.id/tools/allergy-checker",
       "strategy": "desktop",
-      "performance": 59,
+      "performance": 61,
       "accessibility": 91,
       "best_practices": 77,
       "seo": 100
@@ -320,7 +320,7 @@
     {
       "url": "https://www.bebeclub.co.id/tools/allergy-checker",
       "strategy": "mobile",
-      "performance": 68,
+      "performance": 49,
       "accessibility": 92,
       "best_practices": 92,
       "seo": 100
@@ -336,7 +336,7 @@
     {
       "url": "https://www.bebeclub.co.id/tools/growth-tracker",
       "strategy": "mobile",
-      "performance": 57,
+      "performance": 62,
       "accessibility": 86,
       "best_practices": 96,
       "seo": 85
@@ -344,7 +344,7 @@
     {
       "url": "https://www.bebeclub.co.id/promo-event",
       "strategy": "desktop",
-      "performance": 61,
+      "performance": 57,
       "accessibility": 93,
       "best_practices": 73,
       "seo": 100
@@ -352,7 +352,7 @@
     {
       "url": "https://www.bebeclub.co.id/promo-event",
       "strategy": "mobile",
-      "performance": 64,
+      "performance": 63,
       "accessibility": 89,
       "best_practices": 88,
       "seo": 100
@@ -360,7 +360,7 @@
     {
       "url": "https://www.bebeclub.co.id/artikel?topik=pencernaan",
       "strategy": "desktop",
-      "performance": 40,
+      "performance": 42,
       "accessibility": 93,
       "best_practices": 73,
       "seo": 69
@@ -368,7 +368,7 @@
     {
       "url": "https://www.bebeclub.co.id/artikel?topik=pencernaan",
       "strategy": "mobile",
-      "performance": 64,
+      "performance": 60,
       "accessibility": 95,
       "best_practices": 92,
       "seo": 69
@@ -376,16 +376,15 @@
     {
       "url": "https://bebeclub.co.id/hebatnya-bebelac",
       "strategy": "desktop",
-      "performance": 0,
-      "accessibility": 0,
-      "best_practices": 0,
-      "seo": 0,
-      "error": "500 Server Error: Internal Server Error for url: https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fbebeclub.co.id%2Fhebatnya-bebelac&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&locale=en&key=AIzaSyD4jgQLbVjvz12YitAdLbzGFPDKO9L0oB4"
+      "performance": 43,
+      "accessibility": 93,
+      "best_practices": 54,
+      "seo": 100
     },
     {
       "url": "https://bebeclub.co.id/hebatnya-bebelac",
       "strategy": "mobile",
-      "performance": 58,
+      "performance": 41,
       "accessibility": 89,
       "best_practices": 73,
       "seo": 100
@@ -393,7 +392,7 @@
     {
       "url": "https://www.bebeclub.co.id/artikel",
       "strategy": "desktop",
-      "performance": 43,
+      "performance": 45,
       "accessibility": 93,
       "best_practices": 73,
       "seo": 100
@@ -401,7 +400,7 @@
     {
       "url": "https://www.bebeclub.co.id/artikel",
       "strategy": "mobile",
-      "performance": 70,
+      "performance": 62,
       "accessibility": 95,
       "best_practices": 92,
       "seo": 100
@@ -409,31 +408,31 @@
     {
       "url": "https://www.bebeclub.co.id/artikel?kategori=ibu",
       "strategy": "desktop",
-      "performance": 43,
+      "performance": 48,
       "accessibility": 93,
       "best_practices": 73,
       "seo": 69
     },
     {
       "url": "https://www.bebeclub.co.id/artikel?kategori=ibu",
+      "strategy": "mobile",
+      "performance": 59,
+      "accessibility": 95,
+      "best_practices": 92,
+      "seo": 69
+    },
+    {
+      "url": "https://www.bebeclub.co.id/artikel/nutrisi/7-9-bulan/makanan-tinggi-serat-untuk-bayi-yang-mudah-disajikan",
+      "strategy": "desktop",
+      "performance": 43,
+      "accessibility": 86,
+      "best_practices": 73,
+      "seo": 92
+    },
+    {
+      "url": "https://www.bebeclub.co.id/artikel/nutrisi/7-9-bulan/makanan-tinggi-serat-untuk-bayi-yang-mudah-disajikan",
       "strategy": "mobile",
       "performance": 66,
-      "accessibility": 95,
-      "best_practices": 92,
-      "seo": 69
-    },
-    {
-      "url": "https://www.bebeclub.co.id/artikel/nutrisi/7-9-bulan/makanan-tinggi-serat-untuk-bayi-yang-mudah-disajikan",
-      "strategy": "desktop",
-      "performance": 58,
-      "accessibility": 86,
-      "best_practices": 73,
-      "seo": 92
-    },
-    {
-      "url": "https://www.bebeclub.co.id/artikel/nutrisi/7-9-bulan/makanan-tinggi-serat-untuk-bayi-yang-mudah-disajikan",
-      "strategy": "mobile",
-      "performance": 65,
       "accessibility": 86,
       "best_practices": 96,
       "seo": 92
@@ -441,7 +440,7 @@
     {
       "url": "https://www.bebeclub.co.id/artikel/tag/pencernaan",
       "strategy": "desktop",
-      "performance": 35,
+      "performance": 28,
       "accessibility": 93,
       "best_practices": 77,
       "seo": 100
@@ -449,15 +448,15 @@
     {
       "url": "https://www.bebeclub.co.id/artikel/tag/pencernaan",
       "strategy": "mobile",
-      "performance": 40,
+      "performance": 38,
       "accessibility": 95,
-      "best_practices": 96,
+      "best_practices": 92,
       "seo": 100
     },
     {
       "url": "https://www.bebeclub.co.id/syarat-ketentuan",
       "strategy": "desktop",
-      "performance": 72,
+      "performance": 42,
       "accessibility": 89,
       "best_practices": 77,
       "seo": 100
@@ -465,7 +464,7 @@
     {
       "url": "https://www.bebeclub.co.id/syarat-ketentuan",
       "strategy": "mobile",
-      "performance": 74,
+      "performance": 61,
       "accessibility": 90,
       "best_practices": 96,
       "seo": 100
@@ -473,7 +472,7 @@
     {
       "url": "https://www.bebeclub.co.id/kebijakan-privasi",
       "strategy": "desktop",
-      "performance": 61,
+      "performance": 56,
       "accessibility": 87,
       "best_practices": 77,
       "seo": 100
@@ -481,7 +480,7 @@
     {
       "url": "https://www.bebeclub.co.id/kebijakan-privasi",
       "strategy": "mobile",
-      "performance": 74,
+      "performance": 68,
       "accessibility": 87,
       "best_practices": 96,
       "seo": 100
@@ -489,7 +488,7 @@
     {
       "url": "https://www.bebeclub.co.id/faq",
       "strategy": "desktop",
-      "performance": 47,
+      "performance": 50,
       "accessibility": 93,
       "best_practices": 77,
       "seo": 100
@@ -497,39 +496,43 @@
     {
       "url": "https://www.bebeclub.co.id/faq",
       "strategy": "mobile",
-      "performance": 82,
-      "accessibility": 93,
-      "best_practices": 96,
-      "seo": 100
+      "performance": 0,
+      "accessibility": 0,
+      "best_practices": 0,
+      "seo": 0,
+      "error": "400 Client Error: Bad Request for url: https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fwww.bebeclub.co.id%2Ffaq&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&locale=en&key=AIzaSyD4jgQLbVjvz12YitAdLbzGFPDKO9L0oB4"
     },
     {
       "url": "https://www.bebeclub.co.id/kontak-kami",
       "strategy": "desktop",
-      "performance": 55,
-      "accessibility": 85,
-      "best_practices": 77,
-      "seo": 100
+      "performance": 0,
+      "accessibility": 0,
+      "best_practices": 0,
+      "seo": 0,
+      "error": "400 Client Error: Bad Request for url: https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fwww.bebeclub.co.id%2Fkontak-kami&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&locale=en&key=AIzaSyD4jgQLbVjvz12YitAdLbzGFPDKO9L0oB4"
     },
     {
       "url": "https://www.bebeclub.co.id/kontak-kami",
       "strategy": "mobile",
-      "performance": 82,
-      "accessibility": 84,
-      "best_practices": 96,
-      "seo": 100
+      "performance": 0,
+      "accessibility": 0,
+      "best_practices": 0,
+      "seo": 0,
+      "error": "400 Client Error: Bad Request for url: https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fwww.bebeclub.co.id%2Fkontak-kami&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&locale=en&key=AIzaSyD4jgQLbVjvz12YitAdLbzGFPDKO9L0oB4"
     },
     {
       "url": "https://www.bebeclub.co.id/tim-penulis",
       "strategy": "desktop",
-      "performance": 59,
-      "accessibility": 93,
-      "best_practices": 77,
-      "seo": 100
+      "performance": 0,
+      "accessibility": 0,
+      "best_practices": 0,
+      "seo": 0,
+      "error": "400 Client Error: Bad Request for url: https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fwww.bebeclub.co.id%2Ftim-penulis&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&locale=en&key=AIzaSyD4jgQLbVjvz12YitAdLbzGFPDKO9L0oB4"
     },
     {
       "url": "https://www.bebeclub.co.id/tim-penulis",
       "strategy": "mobile",
-      "performance": 80,
+      "performance": 68,
       "accessibility": 96,
       "best_practices": 92,
       "seo": 100
@@ -537,7 +540,7 @@
     {
       "url": "https://www.bebeclub.co.id/tim-ahli",
       "strategy": "desktop",
-      "performance": 53,
+      "performance": 58,
       "accessibility": 93,
       "best_practices": 73,
       "seo": 100
@@ -545,7 +548,7 @@
     {
       "url": "https://www.bebeclub.co.id/tim-ahli",
       "strategy": "mobile",
-      "performance": 67,
+      "performance": 61,
       "accessibility": 96,
       "best_practices": 92,
       "seo": 100
